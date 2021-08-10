@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JacqPortfolio.API", "JacqPortfolio.API\JacqPortfolio.API.csproj", "{B01DB142-F94B-4CA1-B2A2-210082D7606E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JacqPortfolio.API", "JacqPortfolio.API\JacqPortfolio.API.csproj", "{B01DB142-F94B-4CA1-B2A2-210082D7606E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JacqPortfolio.Core", "JacqPortfolio.Core\JacqPortfolio.Core.csproj", "{82661F48-48B3-412A-9A7C-7FED9696B21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JacqPortfolio.Core", "JacqPortfolio.Core\JacqPortfolio.Core.csproj", "{82661F48-48B3-412A-9A7C-7FED9696B21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JacqPortfolio.Infrastructure", "JacqPortfolio.Infrastructure\JacqPortfolio.Infrastructure.csproj", "{86202AEA-AC7F-43FD-8E34-503E3BBA27E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JacqPortfolio.Infrastructure", "JacqPortfolio.Infrastructure\JacqPortfolio.Infrastructure.csproj", "{86202AEA-AC7F-43FD-8E34-503E3BBA27E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JacqPortfolio.ClientApp", "JacqPortfolio.ClientApp\JacqPortfolio.ClientApp.csproj", "{DFEE1479-E951-43DE-9169-9159514F5E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B01DB142-F94B-4CA1-B2A2-210082D7606E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{86202AEA-AC7F-43FD-8E34-503E3BBA27E8}.Release|x64.Build.0 = Release|Any CPU
 		{86202AEA-AC7F-43FD-8E34-503E3BBA27E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{86202AEA-AC7F-43FD-8E34-503E3BBA27E8}.Release|x86.Build.0 = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|x64.Build.0 = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DFEE1479-E951-43DE-9169-9159514F5E4F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08E0AD17-9E21-4D63-9BF8-FDF15D77B032}
 	EndGlobalSection
 EndGlobal
