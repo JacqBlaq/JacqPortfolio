@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="86" viewBox="0 0 182 86">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_1);
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        fill: #031f58;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: Gigi-Regular, Gigi;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-3, .cls-6 {
+        stroke: #031f58;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        stroke-width: 0.2px;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="182" height="86"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" class="cls-1">
+    <g id="Group_1" data-name="Group 1">
+      <text id="Jacq_Blaq" data-name="Jacq Blaq" class="cls-2" transform="translate(5 39)"><tspan x="0" y="0">Jacq Blaq</tspan></text>
+      <line id="left_line" data-name="left line" class="cls-3" x2="38" transform="translate(19.5 52.5)"/>
+      <line id="right_line" data-name="right line" class="cls-3" x2="64.5" transform="translate(79 52.5)"/>
+      <g id="protfolio_games" data-name="protfolio &amp; games" transform="translate(-199 -199)">
+        <text id="Portfolio_Games" data-name="Portfolio &amp; Games" class="cls-4" transform="translate(229 277)"><tspan x="0" y="0">Portfolio &amp; Games</tspan></text>
+        <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-5" width="3" height="3" transform="translate(292 266)"/>
+        <path id="Icon_ionic-ios-heart-empty" data-name="Icon ionic-ios-heart-empty" class="cls-6" d="M6.111,3.937H6.1a1.024,1.024,0,0,0-.855.468,1.024,1.024,0,0,0-.855-.468H4.383A1.018,1.018,0,0,0,3.375,4.955a2.191,2.191,0,0,0,.43,1.194A7.539,7.539,0,0,0,5.247,7.538,7.539,7.539,0,0,0,6.689,6.149a2.191,2.191,0,0,0,.43-1.194A1.018,1.018,0,0,0,6.111,3.937ZM6.485,6a6.9,6.9,0,0,1-1.238,1.22A6.913,6.913,0,0,1,4.009,6a1.942,1.942,0,0,1-.382-1.045.764.764,0,0,1,.758-.764h.008a.755.755,0,0,1,.37.1.786.786,0,0,1,.274.257.253.253,0,0,0,.423,0,.794.794,0,0,1,.274-.256.755.755,0,0,1,.37-.1h.008a.764.764,0,0,1,.758.764A1.966,1.966,0,0,1,6.485,6Z" transform="translate(287.625 260.462)"/>
+      </g>
+    </g>
+  </g>
+</svg>

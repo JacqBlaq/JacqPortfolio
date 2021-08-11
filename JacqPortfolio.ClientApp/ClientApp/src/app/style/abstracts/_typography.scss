@@ -1,0 +1,30 @@
+@import "_variables.scss";
+
+@font-face {
+    font-family: 'JosefinSlab-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../assets/fonts/josefinslab/JosefinSlab-Regular.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'Source Sans pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../../../assets/fonts/Source_Sans_Pro/WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+        url('../../../assets/fonts/Source_Sans_Pro/WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff');
+}
+
+.text-dark-blue {
+    color: $dark-blue !important
+}
+
+.text-pink-blush {
+    color: $pink-blush !important
+}
+
+.text-perriwinkle {
+    color: $perriwinkle !important
+}

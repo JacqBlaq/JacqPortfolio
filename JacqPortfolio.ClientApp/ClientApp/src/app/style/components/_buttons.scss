@@ -1,0 +1,56 @@
+@import "../abstracts/_variables.scss";
+
+
+.default-btn {
+    padding: 5px 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.dark-blue-text-btn {
+    color: $dark-blue;
+    font-weight: 500;
+
+    &:hover {
+        color: $pink;
+
+        .icon {
+            color: $pink !important;
+            fill: $pink;
+        }
+    }
+}
+
+
+.white-text-btn {
+    color: #fff;
+    font-weight: 500;
+
+    &:hover {
+        color: $pink;
+
+        .icon {
+            color: $pink !important;
+            fill: $pink;
+        }
+    }
+}
+
+.dark-blue-outline-btn {
+    @extend .default-btn;
+    border: 1px solid $dark-blue;
+    color: $dark-blue;
+
+    &:hover {
+        background: $dark-blue;
+        color: #fff;
+
+        .icon {
+            color: #fff !important;
+            fill: #fff;
+        }
+    }
+}
+
