@@ -10,12 +10,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SideNavMenuComponent } from './side-nav-menu/side-nav-menu.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavBarComponent,
-        SideNavMenuComponent
+        SideNavMenuComponent,
+        HomeComponent
     ],
     imports: [
         BrowserModule,

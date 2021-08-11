@@ -5,12 +5,12 @@
     background-repeat: no-repeat;
     background-size: auto;
 
-    &__bg-image {
+    &__image {
         background-image: url(/assets/images/svgs/flower.svg);
         background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.4;
-        background-position: top 100px center;
+        background-size: contain;
+        opacity: 0.2;
+        background-position: top 50% center;
     }
 }
 

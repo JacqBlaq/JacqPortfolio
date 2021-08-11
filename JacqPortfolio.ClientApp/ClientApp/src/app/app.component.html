@@ -7,7 +7,14 @@
 
 	<mat-sidenav-content>
 		<div class="page h-100 position-relative">
-			<div class="page__bg-image position-absolute h-100 w-100"></div>
+			<div class="position-absolute h-100 w-100 d-flex">
+				<div class="page__image w-50">
+
+				</div>
+				<div class="page__image w-50">
+
+				</div>
+			</div>
 			<div class="main-content w-100 h-100 position-absolute">
 				<app-nav-bar [menuBtn]="menuBtn">
 					<ng-template #menuBtn>
@@ -16,10 +23,9 @@
 								  class="dark-blue-text-btn my-auto me-4 ">menu</mat-icon>
 					</ng-template>
 				</app-nav-bar>
+				<router-outlet></router-outlet>
 			</div>
-			
 
-			<router-outlet></router-outlet>
 		</div>
 
 	</mat-sidenav-content>

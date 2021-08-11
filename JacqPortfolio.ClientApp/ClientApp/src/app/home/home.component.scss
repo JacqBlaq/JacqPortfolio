@@ -1,0 +1,20 @@
+@import "../style/abstracts/_variables.scss";
+
+.home-page {
+    padding-top: 
+    &__content {
+    }
+
+    &__title {
+        font-family: $header-font;
+        font-size: 100px;
+        font-weight: 700;
+        color: $dark-blue;
+    }
+
+    &__sub-title {
+        color: $dark-blue;
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
